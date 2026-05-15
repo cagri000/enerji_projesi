@@ -24,7 +24,7 @@ Uygulama 4 ana bölümden oluşmaktadır:
 
 ## 📁 Proje Yapısı
 
-
+```text
 enerji_projesi/
 │
 ├── data/
@@ -33,6 +33,8 @@ enerji_projesi/
 ├── uygulama.py                        # Ana Streamlit uygulaması
 ├── README.md                          # Proje dokümantasyonu
 └── requirements.txt                   # Gerekli kütüphaneler
+```
+
 📊 Veri Seti ve Önemli Çıktılar
 Kaggle'dan alınan veri seti temizlendikten sonra 3.112 satır ve 77 ülke içermektedir.
 
