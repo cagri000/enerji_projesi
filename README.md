@@ -33,7 +33,6 @@ enerji_projesi/
 ├── uygulama.py                        # Ana Streamlit uygulaması
 ├── README.md                          # Proje dokümantasyonu
 └── requirements.txt                   # Gerekli kütüphaneler
-
 📊 Veri Seti ve Önemli Çıktılar
 Kaggle'dan alınan veri seti temizlendikten sonra 3.112 satır ve 77 ülke içermektedir.
 
@@ -46,21 +45,24 @@ Fosil yakıt tüketimi, ülkelerin genel enerji profillerini belirleyen en güç
 Ülkelerin yaşadığı savaşlar, ekonomik krizler veya radikal politika değişiklikleri, algoritmalar tarafından net birer "anomali" olarak tespit edilmektedir.
 
 🛠️ Kurulum ve Çalıştırma
-Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
+Projeyi kendi bilgisayarında test etmek istersen şu adımları izleyebilirsin:
 
-Projeyi indirin:
+1. Repoyu bilgisayarına klonla ve klasöre gir:
 
 Bash
 git clone [https://github.com/cagri000/enerji_projesi.git](https://github.com/cagri000/enerji_projesi.git)
-cd enerji-tuketimi-analizi
-Gerekli kütüphaneleri yükleyin:
+cd enerji_projesi
+2. Gerekli kütüphaneleri yükle:
 
 Bash
 pip install -r requirements.txt
-Veri setini ekleyin:
-Kaggle üzerinden "World Energy Consumption" veri setini indirin ve projenin içindeki data/ klasörüne World Energy Consumption.csv adıyla yerleştirin.
+3. Veri setini ekle:
 
-Uygulamayı başlatın:
+Kaggle üzerinden "World Energy Consumption" veri setini indirin.
+
+Projenin içindeki data/ klasörüne World Energy Consumption.csv adıyla yerleştirin.
+
+4. Uygulamayı başlat:
 
 Bash
 streamlit run uygulama.py
