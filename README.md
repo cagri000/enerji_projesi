@@ -48,20 +48,19 @@ Fosil yakıt tüketimi, ülkelerin genel enerji profillerini belirleyen en güç
 🛠️ Kurulum ve Çalıştırma
 Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
-    1-Projeyi indirin:
+Projeyi indirin:
 
-git clone [https://github.com/cagri000/enerji_projesi]
+Bash
+git clone [https://github.com/cagri000/enerji_projesi.git](https://github.com/cagri000/enerji_projesi.git)
+cd enerji-tuketimi-analizi
+Gerekli kütüphaneleri yükleyin:
 
-
-    2-Gerekli kütüphaneleri yükleyin:
-
+Bash
 pip install -r requirements.txt
-
-    3_Veri setini ekleyin:
-
+Veri setini ekleyin:
 Kaggle üzerinden "World Energy Consumption" veri setini indirin ve projenin içindeki data/ klasörüne World Energy Consumption.csv adıyla yerleştirin.
 
 Uygulamayı başlatın:
 
-
+Bash
 streamlit run uygulama.py
