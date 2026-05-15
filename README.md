@@ -24,7 +24,7 @@ Uygulama 4 ana bölümden oluşmaktadır:
 
 ## 📁 Proje Yapısı
 
-```text
+
 enerji_projesi/
 │
 ├── data/
@@ -44,6 +44,7 @@ Fosil yakıt tüketimi, ülkelerin genel enerji profillerini belirleyen en güç
 
 Ülkelerin yaşadığı savaşlar, ekonomik krizler veya radikal politika değişiklikleri, algoritmalar tarafından net birer "anomali" olarak tespit edilmektedir.
 
+```text
 🛠️ Kurulum ve Çalıştırma
 Projeyi kendi bilgisayarında test etmek istersen şu adımları izleyebilirsin:
 
