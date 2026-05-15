@@ -52,20 +52,21 @@ Projeyi kendi bilgisayarında test etmek istersen şu adımları izleyebilirsin:
 ```text
 1. Repoyu bilgisayarına klonla ve klasöre gir:
 
-Bash
 git clone [https://github.com/cagri000/enerji_projesi.git](https://github.com/cagri000/enerji_projesi.git)
+
 cd enerji_projesi
+
+
 2. Gerekli kütüphaneleri yükle:
 
-Bash
 pip install -r requirements.txt
+
+
 3. Veri setini ekle:
 
 Kaggle üzerinden "World Energy Consumption" veri setini indirin.
-
 Projenin içindeki data/ klasörüne World Energy Consumption.csv adıyla yerleştirin.
 
 4. Uygulamayı başlat:
 
-Bash
 streamlit run uygulama.py
